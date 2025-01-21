@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    color: #22138d;
+}
+h3 {
+    color: #0314ff;
+}
+
+hr {
+    border: 1px greenyellow solid;
+}
+
+table, th, td {
+    border: 1px #ce5c5c solid;
+    margin: auto;
+    text-align: center;
+}
+table {
+    box-shadow: 0.5px 0.5px #ac0808;
+    margin-top: 1em;
+}
+th, td {
+    box-shadow: inset 0.5px 0.5px #ac0808;
+    padding: 16px;
+}
+
+table > th {
+    font-weight: bold;
+}
+
+.alignleft {
+    text-align: left;
+}

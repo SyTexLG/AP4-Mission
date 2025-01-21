@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <link rel="stylesheet" href="formulaire.css">
+    </head>
+    <body>
+        <header>
+            <h2>Services Informatiques aux Organisations</h2>
+            <hr>
+            <h3>Présentation des coefficients de spécialité informatique</h3>
+            <hr>
+        </header>
+        <main>
+            <form>
+                <label for="nom">Votre nom : </label>
+                <input type="text" id="nom" name="nom"><br>
+                <label for="prenom">Votre prénom : </label>
+                <input type="text" id="prenom" name="prenom"><br>
+                <p>Cochez les matières</p>
+                <input type="checkbox" id="m-info" name="m-info">
+                <label for="m-info">Informatique</label><br>
+                <input type="checkbox" id="m-fr" name="m-fr">
+                <label for="m-fr">Français</label><br>
+                <input type="checkbox" id="m-math" name="m-math">
+                <label for="m-math">Mathématiques</label><br>
+                <input type="checkbox" id="m-en" name="m-en">
+                <label for="m-en">Anglais</label><br>
+                <p>Quelle option avez-vous choisie ? </p>
+                <input type="radio" id="op-slam" name="option">
+                <label for="op-slam">SLAM</label><br>
+                <input type="radio" id="op-sisr" name="option">
+                <label for="op-sisr">SISR</label><br>
+                <p>Quelle est votre seconde langue ? </p>
+                <select id="lang">
+                    <option value="m-es">Espagnol</option>
+                    <option value="m-de">Allemand</option>
+                </select><br>
+                <p>Vos observations</p>
+                <textarea rows="4" cols="30" placeholder="Votre avis nous intéresse..."></textarea>
+            </form>
+        </main>
+    </body>
+</hmtl>
