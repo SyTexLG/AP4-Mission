@@ -1,0 +1,195 @@
+:root {
+    --main-bg-color: #103a73;
+    --main-text-color: #fefefe;
+    --btn-bg-color: #73739b;
+    --btn-hover-bg-color: #9a9ade;
+}
+body, html {
+    background: #fefefe;
+    color: #fefefe;
+    font-family: monospace;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    height: 100px;
+    background-color: var(--main-bg-color);
+    padding: 12px;
+    overflow: auto;
+}
+h1 {
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+.main-container {
+    height: 600px;
+    width: 1080px;
+    background: ghostwhite;
+    box-shadow: 0 0 12px #7f7f7f;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+p, label {
+    margin-bottom: 0.4em;
+    display: block;
+}
+input {
+    margin-bottom: 0.6em;
+    width: 100%;
+}
+.list {
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+}
+.list > a {
+    min-width: 240px;
+    width: 240px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    box-shadow: #00000066 1px 3px 12px 2px;
+    color: var(--main-text-color);
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 100%;
+}
+.nav > a {
+    width: 160px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-bg-color);
+    border-radius: 12px;
+    color: var(--main-text-color);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.8em 0.5em;
+    text-align: center;
+    text-decoration: none;
+}
+.nav > a.selflink {
+    background-color: var(--btn-hover-bg-color);
+}
+.main-header {
+    background: var(--main-bg-color);
+    text-align: center;
+    padding: 1.4em 1em;
+    font-size: 2em;
+    font-weight: bold;
+}
+.main-box {
+    height: 100%;
+    width: 100%;
+    background: #ffeade;
+    box-sizing: border-box;
+    padding: 1.6em 3em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+.form-box {
+    height: 100%;
+    width: 420px;
+    color: black;
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 0 7px #7f7f7f;
+    overflow: hidden;
+    padding: 1.5em;
+    text-align: center;
+    align-content: center;
+    gap: 1em;
+}
+.gestion-box {
+    height: 100%;
+    width: 720px;
+    color: black;
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 0 7px #7f7f7f;
+    overflow: hidden;
+    display: flex;
+    gap: 1em;
+}
+.mini-form-box {
+    height: 100%;
+    width: 180px;
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+    overflow: hidden;
+    padding: 1.5em;
+    text-align: left;
+    gap: 1em;
+}
+.facture {
+    text-align: left;
+}
+.add-btn {
+    background: var(--btn-bg-color);
+    color: var(--main-text-color);
+    border: none;
+    border-radius: 4px;
+    font-family: monospace;
+    margin: 1em auto;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.add-btn:hover {
+    background: var(--btn-hover-bg-color);
+    transition: 0.2s linear;
+}
+.facture-btn {
+    background: var(--btn-bg-color);
+    color: var(--main-text-color);
+    border: none;
+    border-radius: 8px;
+    font-family: monospace;
+    margin: 1em auto;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.facture-btn:hover {
+    background: var(--btn-hover-bg-color);
+    transition: 0.2s linear;
+}
+input#facture {
+    text-align: center;
+}
