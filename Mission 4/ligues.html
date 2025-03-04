@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Gestion des Ligues - CROSL</title>    
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <a href="index.html">Accueil</a>
+                <a class="selflink" href="ligues.html">Ligues</a>
+                <a href="prestations.html">Prestations</a>
+                <a href="factures.html">Factures</a>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="main-header">Gestion des Ligues</div>
+                <div class="main-box">
+                    <div class="gestion-box">
+                        <div class="mini-form-box">
+                            <form class="facture">
+                                <label for="ligueName">Ligue : </label>
+                                <input type="text" id="ligueID" name="ligueID">
+                                <label for="ligueTresorier">Trésorier : </label>
+                                <input type="text" id="ligueTresorier" name="ligueTresorier">
+                                <label for="ligueSport">Sport : </label>
+                                <input type="text" id="ligueSport" name="ligueSport">
+                            </form>
+                            <button class="add-btn">Ajouter</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Scripts Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

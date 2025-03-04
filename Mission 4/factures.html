@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Gestion des Factures - CROSL</title>    
+    </head>
+    <body>
+        <header>            
+            <div class="nav">
+                <a href="index.html">Accueil</a>
+                <a href="ligues.html">Ligues</a>
+                <a href="prestations.html">Prestations</a>
+                <a class="selflink" href="factures.html">Factures</a>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="main-header">Gestion des Factures</div>
+                <div class="main-box">
+                    <div class="form-box">
+                        <form class="facture">
+                            <label for="ligue">Ligue : </label>
+                            <input type="text" id="ligue" name="ligue">
+                            <label for="dest">Destinataire : </label>
+                            <input type="text" id="dest" name="dest">
+                            <label for="date">Date : </label>
+                            <input type="text" id="date" name="date">
+                        </form>
+                        <button class="facture-btn">Créer</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Scripts Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
